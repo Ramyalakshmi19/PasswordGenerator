@@ -23,22 +23,31 @@ body{
     font-size: large;
     letter-spacing: 0.2px;
 }
+#GeneratedPassword
+{
+    padding: 4vh;
+
+}
 #PasswordDisplay
 {
+    display: flex;
+    justify-content: space-between;
     background-color:#24232B;
+    color:white;
+    font-size: xx-large;
     
 }
 #copyIcon
 {
     color:#A4FFAF;
-    margin-left:35vw;
-    margin-top:4vh;
+    padding-right:2vw;
+    padding-top: 5vh;
     font-size:35px;
 }
 .strength
 {
     display: grid;
-    grid-template-rows:10% 10% 10% 10% 10% 10% 18% 18%;
+    grid-template-rows:10% 10% 10% 10% 10% 10% 20% 18%;
     margin-top: 2vh;
     padding:3%;
     background-color:#24232B;
@@ -123,6 +132,13 @@ input[type="checkbox"] {
     margin-right:1vw;
     margin-top:-1vh;
 }
+.strengthText
+{
+    display: inline;
+    color:white;
+    padding-right:1vw;
+    font-size: xx-large;
+}
 .StrengthBar
 {
     display:inline-block;
@@ -131,7 +147,7 @@ input[type="checkbox"] {
     margin-right:1px;
     border:2px solid white;
 }
-.FinalClick
+#FinalClick
 {
 
     margin-top:3vh;
@@ -140,7 +156,7 @@ input[type="checkbox"] {
     font-size:large;
     background-color: #A4FFAF;
 }
-.generate
+#generate
 {
     margin-top:-0.5vh;
     display: inline-block;
